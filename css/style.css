@@ -1,0 +1,43 @@
+  
+#backdrop {
+    background-color: yellow;
+}
+
+header {
+    background-color: blue;
+    border: 5px solid black;
+}
+
+nav {
+    background-color: green;
+    border: 5px solid black;
+}
+main {
+    background-color: red;
+    border: 5px solid black;
+}
+aside {
+    background-color: aqua;
+    border: 5px solid black;
+}
+section {
+    background-color: brown;
+    border: 5px solid black;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    border: 5px solid black;
+}
+
+header, section {
+    height: 150px;
+}
+nav, footer {
+    height: 70px;
+}
+
+main, aside {
+    height: 200px;
+}
