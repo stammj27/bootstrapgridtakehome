@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0; /* Light background for contrast */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+}
+
+.red-button {
+    display: inline-block;
+    padding: 30px 60px; /* Adjust padding for button size */
+    background-color: #ff0000; /* Red color */
+    color: white;
+    font-size: 36px; /* Adjust font size */
+    font-weight: bold;
+    text-decoration: none; /* Remove underline from link */
+    border-radius: 15px; /* Slightly rounded corners */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.red-button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    transform: translateY(-2px); /* Slight lift on hover */
+}
+
+.red-button:active {
+    background-color: #990000; /* Even darker red when clicked */
+    transform: translateY(0); /* Return to original position */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Smaller shadow when active */
+}
