@@ -4,7 +4,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-color: #f0f0f0; /* Light background for contrast */
+    background-color: #000; /* Light background for contrast */
     font-family: Arial, sans-serif;
 }
 
@@ -15,7 +15,7 @@ body {
 .red-button {
     display: inline-block;
     padding: 30px 60px; /* Adjust padding for button size */
-    background-color: #ff0000; /* Red color */
+    background-color: #a00; /* Red color */
     color: white;
     font-size: 36px; /* Adjust font size */
     font-weight: bold;
