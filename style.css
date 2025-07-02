@@ -14,7 +14,7 @@ body {
 
 .red-button {
     display: inline-block;
-    padding: 30px 60px; /* Adjust padding for button size */
+    padding: 60px 60px; /* Adjust padding for button size */
     background-color: #a00; /* Red color */
     color: white;
     font-size: 36px; /* Adjust font size */
