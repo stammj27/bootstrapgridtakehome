@@ -20,7 +20,7 @@ body {
     font-size: 36px; /* Adjust font size */
     font-weight: bold;
     text-decoration: none; /* Remove underline from link */
-    border-radius: 15px; /* Slightly rounded corners */
+    border-radius: 100%;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.1s ease;
