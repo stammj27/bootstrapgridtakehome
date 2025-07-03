@@ -14,26 +14,24 @@ body {
 
 .red-button {
     display: inline-block;
-    padding: 60px 60px; /* Adjust padding for button size */
-    background-color: #a00; /* Red color */
+    padding: 140px 60px; 
+    background-color: #a00; 
     color: white;
-    font-size: 36px; /* Adjust font size */
+    font-size: 36px;
     font-weight: bold;
-    text-decoration: none; /* Remove underline from link */
+    text-decoration: none; 
     border-radius: 100%;
     border: none;
     cursor: pointer;
     transition: background-color 0.3s ease, transform 0.1s ease;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
 }
 
 .red-button:hover {
-    background-color: #cc0000; /* Darker red on hover */
-    transform: translateY(-2px); /* Slight lift on hover */
+    background-color: #cc0000;
 }
 
 .red-button:active {
-    background-color: #990000; /* Even darker red when clicked */
-    transform: translateY(0); /* Return to original position */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Smaller shadow when active */
+    background-color: #990000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
 }
